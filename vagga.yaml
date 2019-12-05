@@ -1,0 +1,19 @@
+containers:
+
+  hovercraft:
+    setup:
+    - !Alpine v3.10
+    - !Install [libxml2-dev, libxslt-dev, zlib-dev]
+    - !Env { CFLAGS: "-I/usr/include/libxml2 -I/usr/include/libxslt" }
+    - !PipConfig { dependencies: true }
+    - !Py3Install [hovercraft==2.7b1]
+
+commands:
+
+  make: !Command
+    container: hovercraft
+    run: [hovercraft, presentation.rst, docs, --skip-help]
+
+  serve: !Command
+    container: hovercraft
+    run: [hovercraft, presentation.rst, --skip-help]
