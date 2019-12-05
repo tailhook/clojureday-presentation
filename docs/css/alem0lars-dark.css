@@ -1,0 +1,178 @@
+/**
+ * Colors meaning:
+ * - black: background
+ * - green: code
+ * - blue: links
+ * - cyan: titles
+ * - magenta: important
+ * - yellow: notes/popups
+ *
+ * Colorscheme from:
+ * https://github.com/nanotech/jellybeans.vim/blob/master/ansi-term-colors.txt
+ */
+
+@import url(//fonts.googleapis.com/css?family=Inconsolata|Source+Code+Pro);
+
+/* {{{ base */
+
+.clearfix {
+  content: "";
+  clear: both;
+}
+
+body {
+  margin: 0;
+  font-size: 200%;
+  font-family: "Inconsolata", "Source Code Pro";
+  background-color: #3b3b3b; /* black */
+}
+
+a,
+a:visited {
+  color: #597bc5; /* blue */
+}
+
+h1 {
+  font-size: 4rem;
+  color: #71b9f8; /* cyan */
+}
+h2 {
+  font-size: 3rem;
+  color: #71b9f8; /* cyan */
+}
+pre {
+  padding: 1.43rem;
+  color: #adadad; /* white */
+  font-size: 0.65em;
+  line-height: 1.2em;
+}
+tt {
+  color: #99ad6a; /* green */
+}
+ul li {
+  padding-left: 0.35rem;
+}
+dt {
+  font-weight: bold;
+}
+table {
+  width: 100%;
+}
+th {
+  color: #71b9f8; /* cyan */
+  border-bottom: 0.14rem solid #2b2b2b; /* very black */
+}
+th, td {
+  padding: 0.4rem 0.6rem;
+  font-size: 1.6rem;
+  text-align: left;
+}
+td p,
+th p {
+  margin: 0;
+}
+
+/* }}} */
+
+/* {{{ custom elements */
+
+.important {
+  color: #a037b0; /* magenta */
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/* }}} */
+
+/* {{{ footer */
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  background: #2b2b2b; /* very black */
+  color: #99ad6a; /* green */
+  width: 96%;
+  padding: 0.35rem 2%;
+}
+#footer img {
+  float: right;
+}
+#footer p {
+  margin: 0.57rem 0 0 0;
+}
+#footer .footer-title {
+  font-size: 1.4rem;
+  float: left;
+}
+#footer .footer-event {
+  font-size: 1rem;
+  float: left;
+}
+#footer .footer-author {
+  font-size: 1.2rem;
+  float: right;
+}
+#footer.disabled {
+  display: none;
+}
+
+/* }}} */
+
+/* {{{ impress - general */
+
+#impress,
+#impress > div {
+  width: 100%;
+}
+
+/* }}} */
+
+/* {{{ impress - step */
+
+.step {
+  font-size: 2rem;
+  color: #adadad; /* white */
+  width: 80%;
+}
+
+@media screen and (max-width: 35.7rem) {
+  .step {
+    width: 200%;
+  }
+}
+
+/* }}} */
+
+/* {{{ impress - slide-specific */
+
+/* first slide */
+#step-1 {
+  text-align: center;
+}
+
+/* }}} */
+
+/* {{{ impress (not supported mode) */
+
+/* for mobile browsers and others that don't support CSS 3D transforms */
+.impress-not-supported #impress,
+.impress-not-supported #impress > div {
+  position: static !important;
+  margin: 7.14rem 0;
+  width: auto !important;
+}
+.impress-not-supported .step {
+  padding: 5%;
+  border-bottom: 0.15rem solid #d8ad4c; /* yellow */
+  width: 90% !important;
+}
+.impress-not-supported #hovercraft-help {
+  display: none;
+}
+.impress-not-supported #footer {
+  font-size: 1.1rem;
+}
+
+/* }}} */

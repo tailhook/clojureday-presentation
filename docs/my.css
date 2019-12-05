@@ -1,0 +1,27 @@
+body {
+    font-family: Helvetica;
+}
+.step {
+    font-size: 300%;
+}
+.highlight {
+    background-color: white;
+    font-family: Inconsolata, monospace;
+}
+.code.small {
+    font-size: 60%;
+}
+.tag {
+    display: inline-block;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 80%;
+    color: #00C;
+    background-color: #CCC;
+    border-radius: 0.5ex;
+    padding: 0.3ex 1ex;
+}
+.tag::before {
+    content: '#';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
