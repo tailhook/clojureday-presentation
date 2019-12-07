@@ -1,7 +1,7 @@
 .highlight .hll { background-color: #fff }
 .highlight  { background: #fff; color: #000; }
 .highlight .c { color: #000; font-style: italic; background-color: #fff } /* Comment */
-.highlight .err { color: #000; background-color: #fff } /* Error */
+.highlight .err { color: #000; background-color: #fff; border: 0px; } /* Error */
 .highlight .g { color: #000; background-color: #fff } /* Generic */
 .highlight .k { color: #006; background-color: #fff; font-weight: normal; } /* Keyword */
 .highlight .l { color: #000; background-color: #fff } /* Literal */
@@ -11,7 +11,7 @@
 .highlight .p { color: #000; background-color: #fff } /* Punctuation */
 .highlight .cm { color: #000; font-style: italic; background-color: #fff } /* Comment.Multiline */
 .highlight .cp { color: #444; font-style: normal; background-color: #fff } /* Comment.Preproc */
-.highlight .c1 { color: #000; font-style: italic; background-color: #fff } /* Comment.Single */
+.highlight .c1 { color: #444; font-style: italic; background-color: #fff } /* Comment.Single */
 .highlight .cs { color: #000; font-style: italic; background-color: #fff } /* Comment.Special */
 .highlight .gd { color: #000; font-weight: bold; background-color: #fff } /* Generic.Deleted */
 .highlight .ge { color: #000; background-color: #fff } /* Generic.Emph */

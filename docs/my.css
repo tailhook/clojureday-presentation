@@ -14,8 +14,8 @@ body {
 .tag {
     display: inline-block;
     font-family: 'Catamaran', sans-serif;
-    font-size: 80%;
-    color: #00C;
+    font-size: 70%;
+    color: #00A;
     background-color: #CCC;
     border-radius: 0.5ex;
     padding: 0.3ex 1ex;

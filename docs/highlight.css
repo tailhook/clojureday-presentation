@@ -1,17 +1,17 @@
 .highlight .hll { background-color: #fff }
 .highlight  { background: #fff; color: #000; }
 .highlight .c { color: #000; font-style: italic; background-color: #fff } /* Comment */
-.highlight .err { color: #000; background-color: #fff } /* Error */
+.highlight .err { color: #000; background-color: #fff; border: 0px; } /* Error */
 .highlight .g { color: #000; background-color: #fff } /* Generic */
-.highlight .k { color: #006; background-color: #fff } /* Keyword */
+.highlight .k { color: #006; background-color: #fff; font-weight: normal; } /* Keyword */
 .highlight .l { color: #000; background-color: #fff } /* Literal */
 .highlight .n { color: #600; background-color: #fff } /* Name */
-.highlight .o { color: #044; background-color: #fff } /* Operator */
+.highlight .o { color: #006; background-color: #fff } /* Operator */
 .highlight .x { color: #000; background-color: #fff } /* Other */
 .highlight .p { color: #000; background-color: #fff } /* Punctuation */
 .highlight .cm { color: #000; font-style: italic; background-color: #fff } /* Comment.Multiline */
 .highlight .cp { color: #444; font-style: normal; background-color: #fff } /* Comment.Preproc */
-.highlight .c1 { color: #000; font-style: italic; background-color: #fff } /* Comment.Single */
+.highlight .c1 { color: #444; font-style: italic; background-color: #fff } /* Comment.Single */
 .highlight .cs { color: #000; font-style: italic; background-color: #fff } /* Comment.Special */
 .highlight .gd { color: #000; font-weight: bold; background-color: #fff } /* Generic.Deleted */
 .highlight .ge { color: #000; background-color: #fff } /* Generic.Emph */
@@ -34,7 +34,7 @@
 .highlight .s { color: #444; background-color: #fff } /* Literal.String */
 .highlight .na { color: #000; background-color: #fff } /* Name.Attribute */
 .highlight .nb { color: #440; background-color: #fff } /* Name.Builtin */
-.highlight .nc { color: #000; background-color: #fff } /* Name.Class */
+.highlight .nc { color: #000; font-weight: normal; background-color: #fff } /* Name.Class */
 .highlight .no { color: #000; background-color: #fff } /* Name.Constant */
 .highlight .nd { color: #000; background-color: #fff } /* Name.Decorator */
 .highlight .ni { color: #000; background-color: #fff } /* Name.Entity */
